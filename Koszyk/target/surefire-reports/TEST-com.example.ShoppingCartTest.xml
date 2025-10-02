@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.ShoppingCartTest" time="0.278" tests="16" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/cichu/Desktop/AllLabJava/Koszyk/target/test-classes:/home/cichu/Desktop/AllLabJava/Koszyk/target/classes:/home/cichu/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/home/cichu/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/cichu/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/home/cichu/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/cichu/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/home/cichu/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/cichu/Desktop/AllLabJava/Koszyk/target/surefire/surefirebooter1556915194781934022.jar /home/cichu/Desktop/AllLabJava/Koszyk/target/surefire 2025-05-09T18-21-55_304-jvmRun1 surefire8046812976717521016tmp surefire_013796445420690082348tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/cichu/Desktop/AllLabJava/Koszyk/target/test-classes:/home/cichu/Desktop/AllLabJava/Koszyk/target/classes:/home/cichu/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/home/cichu/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/cichu/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/home/cichu/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/cichu/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/home/cichu/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/cichu"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/cichu/Desktop/AllLabJava/Koszyk"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/cichu/Desktop/AllLabJava/Koszyk/target/surefire/surefirebooter1556915194781934022.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.14+7-Ubuntu-122.04.1"/>
+    <property name="user.name" value="cichu"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.9.3-76060903-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/cichu/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-17"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.14"/>
+    <property name="user.dir" value="/home/cichu/Desktop/AllLabJava/Koszyk"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="17.0.14+7-Ubuntu-122.04.1"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testGetNCheapestAndNMostExpensive" classname="com.example.ShoppingCartTest" time="0.049"/>
+  <testcase name="testSortByName" classname="com.example.ShoppingCartTest" time="0.002"/>
+  <testcase name="testBestPromotionOrder" classname="com.example.ShoppingCartTest" time="0.022">
+    <system-out><![CDATA[Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Testowana kombinacja: [com.example.promotions.PercentageDiscountPromotion@54c562f7]
+Cena po promocjach: 468.0
+Kup 2, trzeci gratis! Mouse za 0 zł.
+Testowana kombinacja: [com.example.promotions.BuyTwoGetOneFreePromotion@56de5251]
+Cena po promocjach: 470.0
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Kup 2, trzeci gratis! Mouse za 0 zł.
+Testowana kombinacja: [com.example.promotions.PercentageDiscountPromotion@419c5f1a, com.example.promotions.BuyTwoGetOneFreePromotion@12b0404f]
+Cena po promocjach: 423.0
+Kup 2, trzeci gratis! Mouse za 0 zł.
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Testowana kombinacja: [com.example.promotions.BuyTwoGetOneFreePromotion@769e7ee8, com.example.promotions.PercentageDiscountPromotion@5276e6b0]
+Cena po promocjach: 423.0
+Najlepsza kombinacja: [com.example.promotions.PercentageDiscountPromotion@71b1176b, com.example.promotions.BuyTwoGetOneFreePromotion@6193932a]
+Najlepsza cena: 423.0
+]]></system-out>
+  </testcase>
+  <testcase name="testSortByPriceThenNameDesc" classname="com.example.ShoppingCartTest" time="0.002"/>
+  <testcase name="testPercentageDiscountPromotion" classname="com.example.ShoppingCartTest" time="0.002">
+    <system-out><![CDATA[Zastosowano 5% rabatu przy zamówieniu powyżej 300.0
+]]></system-out>
+  </testcase>
+  <testcase name="testEmptyCart" classname="com.example.ShoppingCartTest" time="0.006"/>
+  <testcase name="testBestPromotionOrderCalculatesLowestPrice" classname="com.example.ShoppingCartTest" time="0.029">
+    <system-out><![CDATA[Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Testowana kombinacja: [com.example.promotions.PercentageDiscountPromotion@5e316c74]
+Cena po promocjach: 468.0
+Kup 2, trzeci gratis! Mouse za 0 zł.
+Testowana kombinacja: [com.example.promotions.BuyTwoGetOneFreePromotion@6d2a209c]
+Cena po promocjach: 470.0
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Kup 2, trzeci gratis! Mouse za 0 zł.
+Testowana kombinacja: [com.example.promotions.PercentageDiscountPromotion@75329a49, com.example.promotions.BuyTwoGetOneFreePromotion@161479c6]
+Cena po promocjach: 423.0
+Kup 2, trzeci gratis! Mouse za 0 zł.
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Testowana kombinacja: [com.example.promotions.BuyTwoGetOneFreePromotion@4313f5bc, com.example.promotions.PercentageDiscountPromotion@7f010382]
+Cena po promocjach: 423.0
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Testowana kombinacja: [com.example.promotions.CouponPromotion@794cb805]
+Cena po promocjach: 499.0
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 63.0 na 44.099999999999994
+Testowana kombinacja: [com.example.promotions.PercentageDiscountPromotion@4b5a5ed1, com.example.promotions.CouponPromotion@59d016c9]
+Cena po promocjach: 449.1
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Testowana kombinacja: [com.example.promotions.CouponPromotion@3cc2931c, com.example.promotions.PercentageDiscountPromotion@20d28811]
+Cena po promocjach: 449.1
+Kup 2, trzeci gratis! Mouse za 0 zł.
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Testowana kombinacja: [com.example.promotions.BuyTwoGetOneFreePromotion@3967e60c, com.example.promotions.CouponPromotion@60d8c9b7]
+Cena po promocjach: 449.0
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Kup 2, trzeci gratis! Keyboard za 0 zł.
+Testowana kombinacja: [com.example.promotions.CouponPromotion@48aaecc3, com.example.promotions.BuyTwoGetOneFreePromotion@7c0c77c7]
+Cena po promocjach: 450.0
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Kup 2, trzeci gratis! Mouse za 0 zł.
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 63.0 na 44.099999999999994
+Testowana kombinacja: [com.example.promotions.PercentageDiscountPromotion@7adda9cc, com.example.promotions.BuyTwoGetOneFreePromotion@5cee5251, com.example.promotions.CouponPromotion@433d61fb]
+Cena po promocjach: 404.1
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 63.0 na 44.099999999999994
+Kup 2, trzeci gratis! Keyboard za 0 zł.
+Testowana kombinacja: [com.example.promotions.PercentageDiscountPromotion@5c909414, com.example.promotions.CouponPromotion@4b14c583, com.example.promotions.BuyTwoGetOneFreePromotion@65466a6a]
+Cena po promocjach: 405.0
+Kup 2, trzeci gratis! Mouse za 0 zł.
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 63.0 na 44.099999999999994
+Testowana kombinacja: [com.example.promotions.BuyTwoGetOneFreePromotion@4ddced80, com.example.promotions.PercentageDiscountPromotion@1534f01b, com.example.promotions.CouponPromotion@78e117e3]
+Cena po promocjach: 404.1
+Kup 2, trzeci gratis! Mouse za 0 zł.
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Testowana kombinacja: [com.example.promotions.BuyTwoGetOneFreePromotion@2ea227af, com.example.promotions.CouponPromotion@4386f16, com.example.promotions.PercentageDiscountPromotion@363ee3a2]
+Cena po promocjach: 404.1
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Kup 2, trzeci gratis! Keyboard za 0 zł.
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Testowana kombinacja: [com.example.promotions.CouponPromotion@4690b489, com.example.promotions.BuyTwoGetOneFreePromotion@79b06cab, com.example.promotions.PercentageDiscountPromotion@3eb7fc54]
+Cena po promocjach: 405.0
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Kup 2, trzeci gratis! Keyboard za 0 zł.
+Testowana kombinacja: [com.example.promotions.CouponPromotion@7f552bd3, com.example.promotions.PercentageDiscountPromotion@3c22fc4c, com.example.promotions.BuyTwoGetOneFreePromotion@460d0a57]
+Cena po promocjach: 405.0
+Darmowy firmowy kubek dodany do koszyka!
+Testowana kombinacja: [com.example.promotions.FreeMugPromotion@47d90b9e]
+Cena po promocjach: 520.0
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Darmowy firmowy kubek dodany do koszyka!
+Testowana kombinacja: [com.example.promotions.PercentageDiscountPromotion@1184ab05, com.example.promotions.FreeMugPromotion@3aefe5e5]
+Cena po promocjach: 468.0
+Darmowy firmowy kubek dodany do koszyka!
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Testowana kombinacja: [com.example.promotions.FreeMugPromotion@149e0f5d, com.example.promotions.PercentageDiscountPromotion@1b1473ab]
+Cena po promocjach: 468.0
+Kup 2, trzeci gratis! Mouse za 0 zł.
+Darmowy firmowy kubek dodany do koszyka!
+Testowana kombinacja: [com.example.promotions.BuyTwoGetOneFreePromotion@2f7c2f4f, com.example.promotions.FreeMugPromotion@6af93788]
+Cena po promocjach: 470.0
+Darmowy firmowy kubek dodany do koszyka!
+Kup 2, trzeci gratis! Firmowy kubek za 0 zł.
+Testowana kombinacja: [com.example.promotions.FreeMugPromotion@ef9296d, com.example.promotions.BuyTwoGetOneFreePromotion@36c88a32]
+Cena po promocjach: 520.0
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Kup 2, trzeci gratis! Mouse za 0 zł.
+Darmowy firmowy kubek dodany do koszyka!
+Testowana kombinacja: [com.example.promotions.PercentageDiscountPromotion@7880cdf3, com.example.promotions.BuyTwoGetOneFreePromotion@5be6e01c, com.example.promotions.FreeMugPromotion@1c93084c]
+Cena po promocjach: 423.0
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Darmowy firmowy kubek dodany do koszyka!
+Kup 2, trzeci gratis! Firmowy kubek za 0 zł.
+Testowana kombinacja: [com.example.promotions.PercentageDiscountPromotion@6ef888f6, com.example.promotions.FreeMugPromotion@10e92f8f, com.example.promotions.BuyTwoGetOneFreePromotion@7ce3cb8e]
+Cena po promocjach: 468.0
+Kup 2, trzeci gratis! Mouse za 0 zł.
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Darmowy firmowy kubek dodany do koszyka!
+Testowana kombinacja: [com.example.promotions.BuyTwoGetOneFreePromotion@78b66d36, com.example.promotions.PercentageDiscountPromotion@5223e5ee, com.example.promotions.FreeMugPromotion@bef2d72]
+Cena po promocjach: 423.0
+Kup 2, trzeci gratis! Mouse za 0 zł.
+Darmowy firmowy kubek dodany do koszyka!
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Testowana kombinacja: [com.example.promotions.BuyTwoGetOneFreePromotion@69b2283a, com.example.promotions.FreeMugPromotion@22a637e7, com.example.promotions.PercentageDiscountPromotion@6fe7aac8]
+Cena po promocjach: 423.0
+Darmowy firmowy kubek dodany do koszyka!
+Kup 2, trzeci gratis! Firmowy kubek za 0 zł.
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Testowana kombinacja: [com.example.promotions.FreeMugPromotion@1d119efb, com.example.promotions.BuyTwoGetOneFreePromotion@659a969b, com.example.promotions.PercentageDiscountPromotion@76908cc0]
+Cena po promocjach: 468.0
+Darmowy firmowy kubek dodany do koszyka!
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Kup 2, trzeci gratis! Firmowy kubek za 0 zł.
+Testowana kombinacja: [com.example.promotions.FreeMugPromotion@2473d930, com.example.promotions.PercentageDiscountPromotion@35047d03, com.example.promotions.BuyTwoGetOneFreePromotion@49b0b76]
+Cena po promocjach: 468.0
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Darmowy firmowy kubek dodany do koszyka!
+Testowana kombinacja: [com.example.promotions.CouponPromotion@769f71a9, com.example.promotions.FreeMugPromotion@4c9f8c13]
+Cena po promocjach: 499.0
+Darmowy firmowy kubek dodany do koszyka!
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Testowana kombinacja: [com.example.promotions.FreeMugPromotion@5ae50ce6, com.example.promotions.CouponPromotion@6f96c77]
+Cena po promocjach: 499.0
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 63.0 na 44.099999999999994
+Darmowy firmowy kubek dodany do koszyka!
+Testowana kombinacja: [com.example.promotions.PercentageDiscountPromotion@be64738, com.example.promotions.CouponPromotion@3ba9ad43, com.example.promotions.FreeMugPromotion@49d904ec]
+Cena po promocjach: 449.1
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Darmowy firmowy kubek dodany do koszyka!
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 63.0 na 44.099999999999994
+Testowana kombinacja: [com.example.promotions.PercentageDiscountPromotion@48e4374, com.example.promotions.FreeMugPromotion@3d680b5a, com.example.promotions.CouponPromotion@4b5d6a01]
+Cena po promocjach: 449.1
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Darmowy firmowy kubek dodany do koszyka!
+Testowana kombinacja: [com.example.promotions.CouponPromotion@4a22f9e2, com.example.promotions.PercentageDiscountPromotion@3c419631, com.example.promotions.FreeMugPromotion@418e7838]
+Cena po promocjach: 449.1
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Darmowy firmowy kubek dodany do koszyka!
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Testowana kombinacja: [com.example.promotions.CouponPromotion@61230f6a, com.example.promotions.FreeMugPromotion@3c130745, com.example.promotions.PercentageDiscountPromotion@cd3fee8]
+Cena po promocjach: 449.1
+Darmowy firmowy kubek dodany do koszyka!
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Testowana kombinacja: [com.example.promotions.FreeMugPromotion@3e2e18f2, com.example.promotions.CouponPromotion@470f1802, com.example.promotions.PercentageDiscountPromotion@63021689]
+Cena po promocjach: 449.1
+Darmowy firmowy kubek dodany do koszyka!
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 63.0 na 44.099999999999994
+Testowana kombinacja: [com.example.promotions.FreeMugPromotion@703580bf, com.example.promotions.PercentageDiscountPromotion@3e92efc3, com.example.promotions.CouponPromotion@1622f1b]
+Cena po promocjach: 449.1
+Kup 2, trzeci gratis! Mouse za 0 zł.
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Darmowy firmowy kubek dodany do koszyka!
+Testowana kombinacja: [com.example.promotions.BuyTwoGetOneFreePromotion@72a7c7e0, com.example.promotions.CouponPromotion@2e4b8173, com.example.promotions.FreeMugPromotion@70e8f8e]
+Cena po promocjach: 449.0
+Kup 2, trzeci gratis! Mouse za 0 zł.
+Darmowy firmowy kubek dodany do koszyka!
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Testowana kombinacja: [com.example.promotions.BuyTwoGetOneFreePromotion@17046283, com.example.promotions.FreeMugPromotion@5bd03f44, com.example.promotions.CouponPromotion@29626d54]
+Cena po promocjach: 449.0
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Kup 2, trzeci gratis! Keyboard za 0 zł.
+Darmowy firmowy kubek dodany do koszyka!
+Testowana kombinacja: [com.example.promotions.CouponPromotion@5a63f509, com.example.promotions.BuyTwoGetOneFreePromotion@6e4784bc, com.example.promotions.FreeMugPromotion@34b7ac2f]
+Cena po promocjach: 450.0
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Darmowy firmowy kubek dodany do koszyka!
+Kup 2, trzeci gratis! Firmowy kubek za 0 zł.
+Testowana kombinacja: [com.example.promotions.CouponPromotion@e056f20, com.example.promotions.FreeMugPromotion@4b0b0854, com.example.promotions.BuyTwoGetOneFreePromotion@19bb07ed]
+Cena po promocjach: 499.0
+Darmowy firmowy kubek dodany do koszyka!
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Kup 2, trzeci gratis! Firmowy kubek za 0 zł.
+Testowana kombinacja: [com.example.promotions.FreeMugPromotion@10e41621, com.example.promotions.CouponPromotion@353d0772, com.example.promotions.BuyTwoGetOneFreePromotion@2667f029]
+Cena po promocjach: 499.0
+Darmowy firmowy kubek dodany do koszyka!
+Kup 2, trzeci gratis! Firmowy kubek za 0 zł.
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Testowana kombinacja: [com.example.promotions.FreeMugPromotion@67a20f67, com.example.promotions.BuyTwoGetOneFreePromotion@57c758ac, com.example.promotions.CouponPromotion@a9cd3b1]
+Cena po promocjach: 499.0
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Kup 2, trzeci gratis! Mouse za 0 zł.
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 63.0 na 44.099999999999994
+Darmowy firmowy kubek dodany do koszyka!
+Testowana kombinacja: [com.example.promotions.PercentageDiscountPromotion@13e39c73, com.example.promotions.BuyTwoGetOneFreePromotion@64cd705f, com.example.promotions.CouponPromotion@9225652, com.example.promotions.FreeMugPromotion@654f0d9c]
+Cena po promocjach: 404.1
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Kup 2, trzeci gratis! Mouse za 0 zł.
+Darmowy firmowy kubek dodany do koszyka!
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 63.0 na 44.099999999999994
+Testowana kombinacja: [com.example.promotions.PercentageDiscountPromotion@6a400542, com.example.promotions.BuyTwoGetOneFreePromotion@6580cfdd, com.example.promotions.FreeMugPromotion@7e0b85f9, com.example.promotions.CouponPromotion@63355449]
+Cena po promocjach: 404.1
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 63.0 na 44.099999999999994
+Kup 2, trzeci gratis! Keyboard za 0 zł.
+Darmowy firmowy kubek dodany do koszyka!
+Testowana kombinacja: [com.example.promotions.PercentageDiscountPromotion@9353778, com.example.promotions.CouponPromotion@6a28ffa4, com.example.promotions.BuyTwoGetOneFreePromotion@48ae9b55, com.example.promotions.FreeMugPromotion@1700915]
+Cena po promocjach: 405.0
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 63.0 na 44.099999999999994
+Darmowy firmowy kubek dodany do koszyka!
+Kup 2, trzeci gratis! Firmowy kubek za 0 zł.
+Testowana kombinacja: [com.example.promotions.PercentageDiscountPromotion@21de60b4, com.example.promotions.CouponPromotion@c267ef4, com.example.promotions.FreeMugPromotion@30ee2816, com.example.promotions.BuyTwoGetOneFreePromotion@31d7b7bf]
+Cena po promocjach: 449.1
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Darmowy firmowy kubek dodany do koszyka!
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 63.0 na 44.099999999999994
+Kup 2, trzeci gratis! Firmowy kubek za 0 zł.
+Testowana kombinacja: [com.example.promotions.PercentageDiscountPromotion@635eaaf1, com.example.promotions.FreeMugPromotion@5c30a9b0, com.example.promotions.CouponPromotion@1ddf84b8, com.example.promotions.BuyTwoGetOneFreePromotion@1139b2f3]
+Cena po promocjach: 449.1
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Darmowy firmowy kubek dodany do koszyka!
+Kup 2, trzeci gratis! Firmowy kubek za 0 zł.
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 63.0 na 44.099999999999994
+Testowana kombinacja: [com.example.promotions.PercentageDiscountPromotion@7a69b07, com.example.promotions.FreeMugPromotion@5e82df6a, com.example.promotions.BuyTwoGetOneFreePromotion@3f197a46, com.example.promotions.CouponPromotion@636be97c]
+Cena po promocjach: 449.1
+Kup 2, trzeci gratis! Mouse za 0 zł.
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 63.0 na 44.099999999999994
+Darmowy firmowy kubek dodany do koszyka!
+Testowana kombinacja: [com.example.promotions.BuyTwoGetOneFreePromotion@50a638b5, com.example.promotions.PercentageDiscountPromotion@1817d444, com.example.promotions.CouponPromotion@6ca8564a, com.example.promotions.FreeMugPromotion@50b472aa]
+Cena po promocjach: 404.1
+Kup 2, trzeci gratis! Mouse za 0 zł.
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Darmowy firmowy kubek dodany do koszyka!
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 63.0 na 44.099999999999994
+Testowana kombinacja: [com.example.promotions.BuyTwoGetOneFreePromotion@31368b99, com.example.promotions.PercentageDiscountPromotion@1725dc0f, com.example.promotions.FreeMugPromotion@3911c2a7, com.example.promotions.CouponPromotion@4ac3c60d]
+Cena po promocjach: 404.1
+Kup 2, trzeci gratis! Mouse za 0 zł.
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Darmowy firmowy kubek dodany do koszyka!
+Testowana kombinacja: [com.example.promotions.BuyTwoGetOneFreePromotion@4facf68f, com.example.promotions.CouponPromotion@76508ed1, com.example.promotions.PercentageDiscountPromotion@41e36e46, com.example.promotions.FreeMugPromotion@15c43bd9]
+Cena po promocjach: 404.1
+Kup 2, trzeci gratis! Mouse za 0 zł.
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Darmowy firmowy kubek dodany do koszyka!
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Testowana kombinacja: [com.example.promotions.BuyTwoGetOneFreePromotion@3d74bf60, com.example.promotions.CouponPromotion@4f209819, com.example.promotions.FreeMugPromotion@15eb5ee5, com.example.promotions.PercentageDiscountPromotion@2145b572]
+Cena po promocjach: 404.1
+Kup 2, trzeci gratis! Mouse za 0 zł.
+Darmowy firmowy kubek dodany do koszyka!
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Testowana kombinacja: [com.example.promotions.BuyTwoGetOneFreePromotion@39529185, com.example.promotions.FreeMugPromotion@72f926e6, com.example.promotions.CouponPromotion@3daa422a, com.example.promotions.PercentageDiscountPromotion@31c88ec8]
+Cena po promocjach: 404.1
+Kup 2, trzeci gratis! Mouse za 0 zł.
+Darmowy firmowy kubek dodany do koszyka!
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 63.0 na 44.099999999999994
+Testowana kombinacja: [com.example.promotions.BuyTwoGetOneFreePromotion@1cbbffcd, com.example.promotions.FreeMugPromotion@27ce24aa, com.example.promotions.PercentageDiscountPromotion@481a996b, com.example.promotions.CouponPromotion@3d51f06e]
+Cena po promocjach: 404.1
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Kup 2, trzeci gratis! Keyboard za 0 zł.
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Darmowy firmowy kubek dodany do koszyka!
+Testowana kombinacja: [com.example.promotions.CouponPromotion@7ed7259e, com.example.promotions.BuyTwoGetOneFreePromotion@28eaa59a, com.example.promotions.PercentageDiscountPromotion@3427b02d, com.example.promotions.FreeMugPromotion@647e447]
+Cena po promocjach: 405.0
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Kup 2, trzeci gratis! Keyboard za 0 zł.
+Darmowy firmowy kubek dodany do koszyka!
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Testowana kombinacja: [com.example.promotions.CouponPromotion@41fbdac4, com.example.promotions.BuyTwoGetOneFreePromotion@3c407114, com.example.promotions.FreeMugPromotion@35ef1869, com.example.promotions.PercentageDiscountPromotion@c33b74f]
+Cena po promocjach: 405.0
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Kup 2, trzeci gratis! Keyboard za 0 zł.
+Darmowy firmowy kubek dodany do koszyka!
+Testowana kombinacja: [com.example.promotions.CouponPromotion@130161f7, com.example.promotions.PercentageDiscountPromotion@2c767a52, com.example.promotions.BuyTwoGetOneFreePromotion@619713e5, com.example.promotions.FreeMugPromotion@708f5957]
+Cena po promocjach: 405.0
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Darmowy firmowy kubek dodany do koszyka!
+Kup 2, trzeci gratis! Firmowy kubek za 0 zł.
+Testowana kombinacja: [com.example.promotions.CouponPromotion@68999068, com.example.promotions.PercentageDiscountPromotion@7722c3c3, com.example.promotions.FreeMugPromotion@2ef3eef9, com.example.promotions.BuyTwoGetOneFreePromotion@243c4f91]
+Cena po promocjach: 449.1
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Darmowy firmowy kubek dodany do koszyka!
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Kup 2, trzeci gratis! Firmowy kubek za 0 zł.
+Testowana kombinacja: [com.example.promotions.CouponPromotion@291ae, com.example.promotions.FreeMugPromotion@61df66b6, com.example.promotions.PercentageDiscountPromotion@50eac852, com.example.promotions.BuyTwoGetOneFreePromotion@16ec5519]
+Cena po promocjach: 449.1
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Darmowy firmowy kubek dodany do koszyka!
+Kup 2, trzeci gratis! Firmowy kubek za 0 zł.
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Testowana kombinacja: [com.example.promotions.CouponPromotion@2f7298b, com.example.promotions.FreeMugPromotion@188715b5, com.example.promotions.BuyTwoGetOneFreePromotion@1ea9f6af, com.example.promotions.PercentageDiscountPromotion@6a192cfe]
+Cena po promocjach: 449.1
+Darmowy firmowy kubek dodany do koszyka!
+Kup 2, trzeci gratis! Firmowy kubek za 0 zł.
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Testowana kombinacja: [com.example.promotions.FreeMugPromotion@5119fb47, com.example.promotions.BuyTwoGetOneFreePromotion@7193666c, com.example.promotions.CouponPromotion@20deea7f, com.example.promotions.PercentageDiscountPromotion@3835c46]
+Cena po promocjach: 449.1
+Darmowy firmowy kubek dodany do koszyka!
+Kup 2, trzeci gratis! Firmowy kubek za 0 zł.
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 63.0 na 44.099999999999994
+Testowana kombinacja: [com.example.promotions.FreeMugPromotion@1dde4cb2, com.example.promotions.BuyTwoGetOneFreePromotion@7714e963, com.example.promotions.PercentageDiscountPromotion@20ce78ec, com.example.promotions.CouponPromotion@393671df]
+Cena po promocjach: 449.1
+Darmowy firmowy kubek dodany do koszyka!
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Kup 2, trzeci gratis! Firmowy kubek za 0 zł.
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Testowana kombinacja: [com.example.promotions.FreeMugPromotion@56620197, com.example.promotions.CouponPromotion@6eda5c9, com.example.promotions.BuyTwoGetOneFreePromotion@55b7a4e0, com.example.promotions.PercentageDiscountPromotion@5f058f00]
+Cena po promocjach: 449.1
+Darmowy firmowy kubek dodany do koszyka!
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 70.0 na 49.0
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Kup 2, trzeci gratis! Firmowy kubek za 0 zł.
+Testowana kombinacja: [com.example.promotions.FreeMugPromotion@192d43ce, com.example.promotions.CouponPromotion@72057ecf, com.example.promotions.PercentageDiscountPromotion@1afd44cb, com.example.promotions.BuyTwoGetOneFreePromotion@6973b51b]
+Cena po promocjach: 449.1
+Darmowy firmowy kubek dodany do koszyka!
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 63.0 na 44.099999999999994
+Kup 2, trzeci gratis! Firmowy kubek za 0 zł.
+Testowana kombinacja: [com.example.promotions.FreeMugPromotion@1ab3a8c8, com.example.promotions.PercentageDiscountPromotion@43195e57, com.example.promotions.CouponPromotion@333291e3, com.example.promotions.BuyTwoGetOneFreePromotion@479d31f3]
+Cena po promocjach: 449.1
+Darmowy firmowy kubek dodany do koszyka!
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Kup 2, trzeci gratis! Firmowy kubek za 0 zł.
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 63.0 na 44.099999999999994
+Testowana kombinacja: [com.example.promotions.FreeMugPromotion@40ef3420, com.example.promotions.PercentageDiscountPromotion@498d318c, com.example.promotions.BuyTwoGetOneFreePromotion@6e171cd7, com.example.promotions.CouponPromotion@402bba4f]
+Cena po promocjach: 449.1
+Najlepsza kombinacja: [com.example.promotions.PercentageDiscountPromotion@795cd85e, com.example.promotions.BuyTwoGetOneFreePromotion@59fd97a8, com.example.promotions.CouponPromotion@f5ac9e4]
+Najlepsza cena: 404.1
+Zastosowano 10% rabatu przy zamówieniu powyżej 300.0
+Kup 2, trzeci gratis! Mouse za 0 zł.
+Zastosowano kupon rabatowy na produkt: Keyboard, cena z 63.0 na 44.099999999999994
+Wybrana kombinacja promocji: [com.example.promotions.PercentageDiscountPromotion@795cd85e, com.example.promotions.BuyTwoGetOneFreePromotion@59fd97a8, com.example.promotions.CouponPromotion@f5ac9e4]
+Cena końcowa: 404.1
+]]></system-out>
+  </testcase>
+  <testcase name="testGetNMostExpensiveOrder" classname="com.example.ShoppingCartTest" time="0.003"/>
+  <testcase name="testTotalPriceWithoutPromotions" classname="com.example.ShoppingCartTest" time="0.002"/>
+  <testcase name="testFindMostExpensiveConditionBranch" classname="com.example.ShoppingCartTest" time="0.002"/>
+  <testcase name="testInvalidSortType" classname="com.example.ShoppingCartTest" time="0.013"/>
+  <testcase name="testEnsurePromotionCapacity" classname="com.example.ShoppingCartTest" time="0.01">
+    <system-out><![CDATA[Nie spełniono warunku promocji 'Kup 2, trzeci gratis'
+Zastosowano 10% rabatu przy zamówieniu powyżej 100.0
+Nie spełniono warunku promocji 'Kup 2, trzeci gratis'
+Zastosowano 10% rabatu przy zamówieniu powyżej 100.0
+]]></system-out>
+  </testcase>
+  <testcase name="testSortByPrice" classname="com.example.ShoppingCartTest" time="0.004"/>
+  <testcase name="testFindCheapestAndMostExpensive" classname="com.example.ShoppingCartTest" time="0.001"/>
+  <testcase name="testPermutationIfBranchEntered" classname="com.example.ShoppingCartTest" time="0.001">
+    <system-out><![CDATA[Zastosowano 10% rabatu przy zamówieniu powyżej 100.0
+Testowana kombinacja: [com.example.promotions.PercentageDiscountPromotion@15ff3e9e]
+Cena po promocjach: 450.0
+Najlepsza kombinacja: [com.example.promotions.PercentageDiscountPromotion@5fdcaa40]
+Najlepsza cena: 450.0
+]]></system-out>
+  </testcase>
+  <testcase name="testEnsureProductCapacity" classname="com.example.ShoppingCartTest" time="0.004"/>
+</testsuite>

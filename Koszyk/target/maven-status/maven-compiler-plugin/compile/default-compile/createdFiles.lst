@@ -1,0 +1,15 @@
+com/example/sorts/SortByNameAsc.class
+com/example/sorts/SortByPriceAsc.class
+com/example/promotions/Promotion.class
+com/example/sorts/SortByPriceDesc.class
+com/example/shoppingCart/ShoppingCart.class
+com/example/promotions/BuyTwoGetOneFreePromotion.class
+com/example/sorts/SortingTypesList.class
+com/example/sorts/SortingService.class
+com/example/ProductClass/Product.class
+com/example/sorts/SortByNameDesc.class
+com/example/promotions/FreeMugPromotion.class
+com/example/promotions/CouponPromotion.class
+com/example/sorts/SortByPriceThenNameDesc.class
+com/example/sorts/Sort.class
+com/example/promotions/PercentageDiscountPromotion.class
